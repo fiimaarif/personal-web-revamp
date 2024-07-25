@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Tablet, Twitter } from 'react-feather'
+import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartphone, Twitter } from 'react-feather'
 
 function Sidebar() {
   return (
@@ -39,7 +39,7 @@ function Sidebar() {
           <div className="mt-5 bg-gray-100 p-3 rounded-xl">
               <div className="flex items-center">
                   <div className="bg-neutral-50 shadow p-2 rounded">
-                      <Tablet color="#1d4ed8" />
+                      <Smartphone color="#1d4ed8" />
                   </div>
                   <div className="ml-2">
                       <p className='text-xs text-gray-500'>Phone</p>
