@@ -1,6 +1,6 @@
 import React from "react";
 
-function Main() {
+function About() {
     return (
         <main className="p-8 bg-slate-50 rounded-3xl">
             <h1 className="text-2xl font-semibold text-gray-800 mb-5">About</h1>
@@ -43,4 +43,4 @@ function Main() {
     );
 }
 
-export default Main;
+export default About;

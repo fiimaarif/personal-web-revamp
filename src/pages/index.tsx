@@ -1,4 +1,4 @@
-import Main from "@/components/main";
+import About from "@/components/main/about";
 import Navbar from "@/components/navbar";
 import Sidebar from "@/components/sidebar";
 
@@ -8,7 +8,6 @@ export default function Home() {
       <Sidebar/>
       <div className="w-full md:w-3/4 md:ml-4">
         <Navbar/>
-        <Main/>
       </div>
     </div>
   );
