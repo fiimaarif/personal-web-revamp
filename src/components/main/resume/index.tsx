@@ -1,5 +1,7 @@
 import React from "react";
 import { Briefcase, Grid } from "react-feather";
+import education from "../../utils/education.json";
+import experience from "../../utils/experience.json";
 
 function Resume() {
     return (
@@ -11,63 +13,37 @@ function Resume() {
                         <Grid size={30} color="#0891b2" />
                         <p className="ml-1 mt-1 text-xl">Education</p>
                     </div>
-                    <div className="bg-red-50 p-5 rounded-2xl mb-5">
+                    {education.map((item) => (
+                        <div className="bg-red-50 p-5 rounded-2xl mb-5">
                         <div className="flex justify-between mb-2">
-                            <p className="text-sm text-gray-600">2024 - 2025</p>
-                            <p className="text-sm text-gray-600">Bachelor</p>
+                            <p className="text-sm text-gray-600">{item.year}</p>
+                            <p className="text-sm text-gray-600">{item.degree}</p>
                         </div>
-                        <p className="text-xl mb-1">Universitas Nusamandiri</p>
+                        <p className="text-xl mb-1">{item.university}</p>
                         <p className="text-base text-gray-600">
-                            Sistem Informasi
+                            {item.major}
                         </p>
                     </div>
-                    <div className="bg-emerald-50 p-5 rounded-2xl">
-                        <div className="flex justify-between mb-2">
-                            <p className="text-sm text-gray-600">2018 - 2021</p>
-                            <p className="text-sm text-gray-600">Diploma</p>
-                        </div>
-                        <p className="text-xl mb-1">
-                            Universitas Bina Sarana Informatika
-                        </p>
-                        <p className="text-base text-gray-600">
-                            Sistem Informasi
-                        </p>
-                    </div>
+                    ))}
                 </div>
                 <div className="w-full md:w-1/2">
                     <div className="flex items-start mb-7 mt-7 md:mt-0">
                         <Briefcase size={30} color="#0891b2" />
                         <p className="ml-1 mt-1 text-xl">Experience</p>
                     </div>
-                    <div className="bg-emerald-50 p-5 rounded-2xl mb-5">
-                        <div className="flex justify-between mb-2">
-                            <p className="text-sm text-gray-600">
-                                2022 - Present
+                    {experience.map((item) => (
+                        <div className="bg-emerald-50 p-5 rounded-2xl mb-5">
+                            <div className="flex justify-between mb-2">
+                                <p className="text-sm text-gray-600">
+                                    {item.year}
+                                </p>
+                            </div>
+                            <p className="text-xl mb-1">{item.role}</p>
+                            <p className="text-base text-gray-600">
+                                {item.office}
                             </p>
                         </div>
-                        <p className="text-xl mb-1">Frontend Developer</p>
-                        <p className="text-base text-gray-600">
-                            PT Bussan Auto Finance
-                        </p>
-                    </div>
-                    <div className="bg-red-50 p-5 rounded-2xl mb-5">
-                        <div className="flex justify-between mb-2">
-                            <p className="text-sm text-gray-600">2022 - 2022</p>
-                        </div>
-                        <p className="text-xl mb-1">Software Developer</p>
-                        <p className="text-base text-gray-600">
-                            Bank OCBC NISP
-                        </p>
-                    </div>
-                    <div className="bg-emerald-50 p-5 rounded-2xl">
-                        <div className="flex justify-between mb-2">
-                            <p className="text-sm text-gray-600">2022 - 2022</p>
-                        </div>
-                        <p className="text-xl mb-1">Trainee IT Bootcamp</p>
-                        <p className="text-base text-gray-600">
-                            Enigma Camp
-                        </p>
-                    </div>
+                    ))}
                 </div>
             </div>
         </main>

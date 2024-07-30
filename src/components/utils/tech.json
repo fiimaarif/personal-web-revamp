@@ -1,0 +1,50 @@
+[
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg",
+        "alt": "codeigniter"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg",
+        "alt": "bootstrap"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg",
+        "alt": "css"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg",
+        "alt": "html5"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg",
+        "alt": "javascript"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg",
+        "alt": "react"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg",
+        "alt": "typescript"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/angularjs-original.svg",
+        "alt": "angular"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/php-original.svg",
+        "alt": "php"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/redux-original.svg",
+        "alt": "redux"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg",
+        "alt": "express"
+    },
+    {
+        "image": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg",
+        "alt": "git"
+    }
+]

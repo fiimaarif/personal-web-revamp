@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardWork from "./cardWork";
-import portfolioData from './data.json'
+import portfolioData from '../../utils/portfolio.json'
 
 function Work() {
     const [activeTab, setActiveTab] = useState('all');

@@ -1,4 +1,5 @@
 import React from "react";
+import tech from "../../utils/tech.json"
 
 function About() {
     return (
@@ -24,18 +25,9 @@ function About() {
                 <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 my-5">Languages and Tools</h1>
                 <div>
                     <div className="flex flex-wrap justify-center gap-5 mt-10 bg-gray-100 p-7 rounded-2xl">
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/codeigniter.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/typescript-original.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/angularjs-original.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/php-original.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/redux-original.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg" alt="tools" />
-                        <img className="grayscale hover:grayscale-0" width={40} height={40} src="https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg" alt="tools" />
+                        {tech.map((item, index)=> (
+                            <img className="grayscale hover:grayscale-0" width={40} height={40} src={item.image} alt={item.alt} />
+                        ))}
                     </div>
                 </div>
             </div>
