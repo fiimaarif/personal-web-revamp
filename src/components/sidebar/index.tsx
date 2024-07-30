@@ -4,7 +4,7 @@ import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartp
 
 function Sidebar() {
   return (
-      <aside className="w-full md:w-1/4 bg-slate-50 p-6 rounded-3xl">
+      <aside className="w-full md:w-1/2 lg:w-1/4 bg-slate-50 p-6 rounded-3xl">
           <img src="/images/profile-pic.png" />
           <div className="mt-7">
               <p className="text-center text-2xl font-semibold">Fii Maarif</p>

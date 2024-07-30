@@ -33,7 +33,7 @@ function Work() {
             </div>
             <div className="grid grid-cols-12 gap-5 mt-10">
                 {data.map((item, index) => (
-                    <div key={index} className="col-span-6 md:col-span-4">
+                    <div key={index} className="col-span-6 md:col-span-6 xl:col-span-4">
                         <CardWork
                             img={item.image}
                             label={item.label}
