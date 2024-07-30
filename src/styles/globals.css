@@ -26,3 +26,83 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-form-group {
+  position: relative;
+  margin-bottom: 45px;
+}
+
+.custom-form-input {
+  font-size: 18px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #757575;
+  background: none;
+}
+
+.custom-form-input:focus {
+  outline: none;
+  background: none;
+}
+
+.custom-form-highlight {
+  position: absolute;
+  height: 60%;
+  width: 100px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.custom-form-bar {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.custom-form-bar:before, .custom-form-bar:after {
+  content: '';
+  height: 2px;
+  width: 0;
+  bottom: 1px;
+  position: absolute;
+  background: #5264AE;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.custom-form-bar:before {
+  left: 50%;
+}
+
+.custom-form-bar:after {
+  right: 50%;
+}
+
+.custom-form-input:focus ~ .custom-form-bar:before, .custom-form-input:focus ~ .custom-form-bar:after {
+  width: 50%;
+}
+
+.custom-form-group label {
+  color: #999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.custom-form-input:focus ~ .custom-form-label, .custom-form-input:valid ~ .custom-form-label {
+  top: -20px;
+  font-size: 14px;
+  color: #5264AE;
+}
+
