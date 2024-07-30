@@ -16,7 +16,7 @@
     },
     {
         "image": "/images/portfolio/portfolio-cms-baf-portal.png",
-        "label": "design",
+        "label": "website",
         "title": "CMS BAF Portal"
     },
     {
@@ -26,17 +26,17 @@
     },
     {
         "image": "/images/portfolio/portfolio-investasi-web.png",
-        "label": "website",
+        "label": "design",
         "title": "Landing Page"
     },
     {
         "image": "/images/portfolio/portfolio-notes-app.png",
-        "label": "website",
+        "label": "mobile",
         "title": "Notes App"
     },
     {
         "image": "/images/portfolio/portfolio-pascal-room.png",
-        "label": "website",
+        "label": "design",
         "title": "Pascal Room"
     },
     {

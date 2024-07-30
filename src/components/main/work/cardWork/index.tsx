@@ -15,13 +15,12 @@ type CardWorkProps = {
 function CardWork({ img, label, title }: CardWorkProps) {
     const bgColor = labelColors[label] || "#FFFFFF";
     return (
-        <div
-            className="bg-red-50 p-5 rounded-xl"
-            style={{ backgroundColor: bgColor }}
-        >
-            <img src={img} width={200} />
+        <div className="bg-gray-100 p-5 rounded-xl">
+            <div className=" p-5 rounded-xl" style={{ backgroundColor: bgColor }}>
+                <img src={img} width={200} />
+            </div>
             <div>
-                <p className="text-sm text-slate-400 py-1">{label}</p>
+                <p className="text-sm text-slate-400 pt-3">{label}</p>
                 <p className="font-semibold text-slate-900">{title}</p>
             </div>
         </div>
