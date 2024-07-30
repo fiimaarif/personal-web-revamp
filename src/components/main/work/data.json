@@ -1,0 +1,47 @@
+[
+    {
+        "image": "/images/portfolio/portfolio-baf-portal.png",
+        "label": "website",
+        "title": "BAF Portal"
+    },
+    {
+        "image": "/images/portfolio/portfolio-baf-web.png",
+        "label": "website",
+        "title": "BAF Website"
+    },
+    {
+        "image": "/images/portfolio/portfolio-bookshelf-app.png",
+        "label": "mobile",
+        "title": "Bookshelf App"
+    },
+    {
+        "image": "/images/portfolio/portfolio-cms-baf-portal.png",
+        "label": "design",
+        "title": "CMS BAF Portal"
+    },
+    {
+        "image": "/images/portfolio/portfolio-cms-baf-web.png",
+        "label": "website",
+        "title": "CMS BAF Web"
+    },
+    {
+        "image": "/images/portfolio/portfolio-investasi-web.png",
+        "label": "website",
+        "title": "Landing Page"
+    },
+    {
+        "image": "/images/portfolio/portfolio-notes-app.png",
+        "label": "website",
+        "title": "Notes App"
+    },
+    {
+        "image": "/images/portfolio/portfolio-pascal-room.png",
+        "label": "website",
+        "title": "Pascal Room"
+    },
+    {
+        "image": "/images/portfolio/portfolio-topup-game.png",
+        "label": "website",
+        "title": "Top Up App"
+    }
+]
