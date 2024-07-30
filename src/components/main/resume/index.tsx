@@ -54,18 +54,18 @@ function Resume() {
                         <div className="flex justify-between mb-2">
                             <p className="text-sm text-gray-600">2022 - 2022</p>
                         </div>
-                        <p className="text-xl mb-1">Bank OCBC NISP</p>
+                        <p className="text-xl mb-1">Software Developer</p>
                         <p className="text-base text-gray-600">
-                            Software Developer
+                            Bank OCBC NISP
                         </p>
                     </div>
                     <div className="bg-emerald-50 p-5 rounded-2xl">
                         <div className="flex justify-between mb-2">
                             <p className="text-sm text-gray-600">2022 - 2022</p>
                         </div>
-                        <p className="text-xl mb-1">Enigma Camp</p>
+                        <p className="text-xl mb-1">Trainee IT Bootcamp</p>
                         <p className="text-base text-gray-600">
-                            Trainee IT Bootcamp
+                            Enigma Camp
                         </p>
                     </div>
                 </div>
