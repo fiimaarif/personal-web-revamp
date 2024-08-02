@@ -1,0 +1,22 @@
+[
+    {
+        "key": "about",
+        "label": "about",
+        "icon": "User"
+    },
+    {
+        "key": "resume",
+        "label": "resume",
+        "icon": "FileMinus"
+    },
+    {
+        "key": "work",
+        "label": "works",
+        "icon": "Briefcase"
+    },
+    {
+        "key": "contact",
+        "label": "contact",
+        "icon": "Mail"
+    }
+]
