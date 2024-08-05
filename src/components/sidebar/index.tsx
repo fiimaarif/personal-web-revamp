@@ -11,19 +11,22 @@ function Sidebar() {
               <p className="text-center mt-2 text-lg text-gray-500">Frontend Developer</p>
               <div className="flex justify-between mt-5">
                   <Link
-                      href={"#"}
+                      href={"https://www.instagram.com/fimaarif/"}
+                      target='_blank'
                       className="bg-gray-100 hover:bg-gray-200 p-2 rounded-xl"
                   >
                       <Instagram color="#f43f5e" />
                   </Link>
                   <Link
-                      href={"#"}
+                      href={"https://www.linkedin.com/in/fiimaarif"}
+                      target='_blank'
                       className="bg-gray-100 hover:bg-gray-200 p-2 rounded-xl"
                   >
                       <Linkedin color="#075985" />
                   </Link>
                   <Link
-                      href={"#"}
+                      href={"https://www.facebook.com/fiimaarif.fiimaarif"}
+                      target='_blank'
                       className="bg-gray-100 hover:bg-gray-200 p-2 rounded-xl"
                   >
                       <Facebook color="#22d3ee" />
@@ -78,7 +81,7 @@ function Sidebar() {
               </div>
           </div>
           <div className="mt-5 bg-teal-500 hover:bg-teal-700 p-3 rounded-xl">
-              <Link href={'#'} className="flex justify-center text-slate-50">
+              <Link href={'https://drive.google.com/file/d/1CMbOQsV5vsH4eLc-0z5cFPUADzHOUDwY/view'} target='_blank' className="flex justify-center text-slate-50">
                   <Download className='mr-2'/>
                   Download CV
               </Link>
