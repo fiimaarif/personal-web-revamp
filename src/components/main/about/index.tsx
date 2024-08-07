@@ -1,6 +1,6 @@
 import React from "react";
 import tech from "../../utils/tech.json";
-import { Codesandbox, Layout, Smartphone } from "react-feather";
+import { Codesandbox, Layout } from "react-feather";
 
 function About() {
     return (

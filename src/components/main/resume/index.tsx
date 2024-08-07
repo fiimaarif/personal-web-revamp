@@ -2,6 +2,7 @@ import React from "react";
 import { Briefcase, Grid } from "react-feather";
 import education from "../../utils/education.json";
 import experience from "../../utils/experience.json";
+import knowledges from "../../utils/knowledges.json";
 
 function Resume() {
     return (
@@ -45,6 +46,12 @@ function Resume() {
                         </div>
                     ))}
                 </div>
+            </div>
+            <h1 className="text-2xl font-semibold text-gray-800 my-5">Knowledges</h1>
+            <div className="flex gap-1 md:gap-1 lg:gap-x-4 lg:gap-y-3 flex-wrap justify-start">
+                {knowledges.map((item, index) => (
+                    <div key={index} className="bg-red-400 px-5 py-1 rounded-3xl font-medium text-gray-50">{item.label}</div>
+                ))}
             </div>
         </main>
     );

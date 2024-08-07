@@ -1,0 +1,39 @@
+[
+    {
+        "label": "React"
+    },
+    {
+        "label": "React-Native"
+    },
+    {
+        "label": "Angular"
+    },
+    {
+        "label": "NextJS"
+    },
+    {
+        "label": "Redux"
+    },
+    {
+        "label": "ExpressJS"
+    },
+    {
+        "label": "PostgreSQL"
+    },
+    {
+        "label": "Git"
+    },
+    {
+        "label": "Codeigniter"
+    },
+    {
+        "label": "Bootstrap"
+    },
+    {
+        "label": "TailwindCSS"
+    },
+    {
+        "label": "etc"
+    }
+    
+]
