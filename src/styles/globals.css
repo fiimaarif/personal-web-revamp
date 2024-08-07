@@ -106,3 +106,10 @@ body {
   color: #5264AE;
 }
 
+.icon-zoom {
+  transition: transform 0.3s ease;
+}
+
+.icon-zoom:hover {
+  transform: scale(1.5);
+}

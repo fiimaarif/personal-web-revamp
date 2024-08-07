@@ -79,11 +79,13 @@ function About() {
                     <div className="flex flex-wrap justify-center gap-5 mt-10 bg-gray-100 p-7 rounded-2xl">
                         {tech.map((item, index) => (
                             <img
+                                key={index}
                                 title={item.alt}
                                 width={30}
                                 height={30}
                                 src={item.image}
                                 alt={item.alt}
+                                className="icon-zoom"
                             />
                         ))}
                     </div>
