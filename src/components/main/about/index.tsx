@@ -9,7 +9,7 @@ function About() {
                 About
             </h1>
             <article>
-                <p className="text-lg xl:text-xl text-justify text-neutral-600">
+                <p className="text-base xl:text-xl text-justify text-neutral-600">
                     Hi there, I'm fii maarif. I am a Frontend Developer. I have
                     experience in creating and developing responsive and
                     intuitive user interfaces for web applications. I possess
@@ -17,7 +17,7 @@ function About() {
                     using frameworks such as ReactJS, Angular and React Native
                     for Mobile.
                 </p>
-                <p className="mt-5 text-lg xl:text-xl text-justify text-neutral-600">
+                <p className="mt-5 text-base xl:text-xl text-justify text-neutral-600">
                     I am also able to work closely with the backend team to
                     ensure seamless integration between the user interface and
                     systems. I am passionate about learning and experimenting
@@ -30,16 +30,17 @@ function About() {
                 </h1>
                 <div className="grid grid-cols-12 gap-5">
                     <div className="bg-red-50 p-3 col-span-12 md:col-span-6 rounded-xl">
-                        <div className="flex">
+                        <div className="bg-emerald-100 w-min p-2 rounded-xl mb-2">
                             <Layout
-                                size={50}
+                                size={30}
                                 color="#d946ef"
-                                className="w-1/3 md:w-1/4 mr-3"
                             />
+                        </div>
                             <div>
                                 <p className="text-xl text-neutral-800 font-semibold">
                                     Web Development
                                 </p>
+                                <hr className="my-1"/>
                                 <p className="text-neutral-600 text-left">
                                     I develop modern, responsive websites using
                                     the latest technologies to ensure optimal
@@ -47,19 +48,19 @@ function About() {
                                     experience.
                                 </p>
                             </div>
-                        </div>
                     </div>
                     <div className="bg-emerald-50 p-3 col-span-12 md:col-span-6 rounded-xl">
-                        <div className="flex">
-                            <Codesandbox
-                                size={50}
-                                color="#fb7185"
-                                className="w-1/3 md:w-1/4 mr-3"
-                            />
+                            <div className="bg-red-100 w-min p-2 rounded-xl mb-2">
+                                <Codesandbox
+                                    size={30}
+                                    color="#fb7185"
+                                />
+                            </div>
                             <div>
                                 <p className="text-xl text-neutral-800 font-semibold">
                                     Mobile Development
                                 </p>
+                                <hr className="my-1"/>
                                 <p className="text-neutral-600 text-left">
                                     I create high-performance mobile
                                     applications tailored to your needs,
@@ -67,7 +68,6 @@ function About() {
                                     engaging user experience across all devices.
                                 </p>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
