@@ -9,9 +9,9 @@ function Contact() {
                 Contact
             </h1>
             <article className="py-5 w-full md:w-full xl:w-8/12">
-                <p className="text-sm md:text-lg text-neutral-600">I appreciate your interest in reaching out to me.</p>
-                <p className="text-sm md:text-lg text-neutral-600">I'll do my best to respond promptly.</p>
-                <p className="text-sm md:text-lg text-neutral-600">Thank you for your attention.</p>
+                <p className="text-base md:text-lg text-neutral-600">I appreciate your interest in reaching out to me.</p>
+                <p className="text-base md:text-lg text-neutral-600">I'll do my best to respond promptly.</p>
+                <p className="text-base md:text-lg text-neutral-600">Thank you for your attention.</p>
             </article>
             <div className="bg-slate-100 p-10 rounded-3xl">
                 <CustomForm type="text" label="name" />
