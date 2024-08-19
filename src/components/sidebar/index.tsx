@@ -81,7 +81,7 @@ function Sidebar() {
               </div>
           </div>
           <div className="mt-5 bg-teal-500 hover:bg-teal-700 p-3 rounded-xl">
-              <Link href={'https://drive.google.com/file/d/1CMbOQsV5vsH4eLc-0z5cFPUADzHOUDwY/view'} target='_blank' className="flex justify-center text-slate-50">
+              <Link href={'https://drive.google.com/file/d/1YNi6a1Oe6kUm9mlXjtLgCdg7aCD2y59B/view?usp=sharing'} target='_blank' className="flex justify-center text-slate-50">
                   <Download className='mr-2'/>
                   Download CV
               </Link>
