@@ -25,7 +25,7 @@ function Navbar() {
 
     return (
         <div>
-            <nav className="bg-slate-50 mb-4 mt-5 md:mt-0 p-5 rounded-3xl flex justify-around">
+            <nav className="bg-slate-50 dark:bg-slate-800 mb-4 mt-5 md:mt-0 p-5 rounded-3xl flex justify-around text-slate-950 dark:text-gray-50">
                 <button onClick={() => setActiveTab('about')} className={`flex items-start gap-1 ${activeTab === 'about' ? 'text-blue-500' : ''}`}>
                     <User size={19} />
                     <p className="hidden md:block">about</p>
