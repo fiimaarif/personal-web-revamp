@@ -24,7 +24,7 @@ function Work() {
                 {tabItem.map(tab => (
                     <p
                         key={tab}
-                        className={`cursor-pointer ${activeTab === tab ? 'font-bold text-indigo-500' : 'text-gray-700'}`}
+                        className={`cursor-pointer ${activeTab === tab ? 'font-bold text-indigo-500' : 'text-gray-700 dark:text-gray-50'}`}
                         onClick={() => setActiveTab(tab)}
                     >
                         {tab}
