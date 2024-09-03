@@ -14,7 +14,7 @@ export default function Home() {
       <meta property="og:image" content="https://aboutfi.vercel.app/favicon.png"/>
       <meta property="og:url" content="https://aboutfi.vercel.app"/>
     </Head>
-    <div className="flex flex-col md:flex-row md:p-10 font-roboto">
+    <div className="flex flex-col md:flex-row md:p-10 font-roboto dark:bg-neutral-800">
       <Sidebar/>
       <div className="w-full md:w-3/4 md:ml-4">
         <Navbar/>
