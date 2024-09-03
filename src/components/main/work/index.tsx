@@ -16,8 +16,8 @@ function Work() {
     const tabItem = ['all', 'website', 'mobile', 'design']
 
     return (
-        <main className="p-8 bg-slate-50 rounded-3xl">
-            <h1 className="text-2xl font-semibold text-gray-800 mb-5">
+        <main className="p-8 bg-slate-50 dark:bg-slate-800 rounded-3xl">
+            <h1 className="text-2xl font-semibold text-gray-800 dark:text-gray-50 mb-5">
                 Portfolio
             </h1>
             <div className="flex justify-end gap-5">
