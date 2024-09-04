@@ -12,7 +12,7 @@ function Sidebar() {
                 <Toggle/>
             </div>
               <p className="text-center text-2xl font-semibold dark:text-gray-50">Fii Maarif</p>
-              <p className="text-center mt-2 text-lg text-gray-500">Frontend Developer</p>
+              <p className="text-center mt-2 text-lg text-gray-500 dark:text-gray-400">Frontend Developer</p>
               <div className="flex justify-between mt-5">
                   <Link
                       href={"https://www.instagram.com/fimaarif/"}
@@ -84,7 +84,7 @@ function Sidebar() {
                   </div>
               </div>
           </div>
-          <div className="mt-5 bg-teal-500 hover:bg-teal-700 p-3 rounded-xl">
+          <div className="mt-5 bg-teal-500 dark:bg-slate-700 hover:bg-teal-700 p-3 rounded-xl">
               <Link href={'https://drive.google.com/file/d/1YNi6a1Oe6kUm9mlXjtLgCdg7aCD2y59B/view?usp=sharing'} target='_blank' className="flex justify-center text-slate-50">
                   <Download className='mr-2'/>
                   Download CV

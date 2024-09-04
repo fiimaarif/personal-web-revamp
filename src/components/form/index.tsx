@@ -9,9 +9,9 @@ function CustomForm({label, type} : CustomFormProps) {
     return (
         <div className="custom-form-group">
             {type === 'textarea' ? (
-                <textarea className="custom-form-input custom-form-textarea" required />
+                <textarea className="custom-form-input custom-form-textarea dark:text-gray-50" required />
             ) : (
-                <input type={type} className="custom-form-input" required />
+                <input type={type} className="custom-form-input dark:text-gray-50" required />
             )}
             <span className="custom-form-highlight"></span>
             <span className="custom-form-bar"></span>
