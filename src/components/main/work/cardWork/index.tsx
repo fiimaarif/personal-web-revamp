@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import CardSkeleton from "./CardSkeleton";
 import Image from "next/image";
+import CardSkeleton from "./cardSkeleton";
 
 const labelColors: { [key: string]: string } = {
     website: "#fee2e2",
