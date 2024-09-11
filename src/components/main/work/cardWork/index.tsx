@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
-import CardSkeleton from "./cardSkeleton";
+import CardSkeleton from "./CardSkeleton";
+import Image from "next/image";
 
 const labelColors: { [key: string]: string } = {
     website: "#fee2e2",
@@ -19,7 +20,7 @@ function CardWork({ img, label, title }: CardWorkProps) {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 4000);
+        }, 2000); // Simulasi loading selama 2 detik
 
         return () => clearTimeout(timer);
     }, []);
@@ -27,13 +28,19 @@ function CardWork({ img, label, title }: CardWorkProps) {
     const bgColor = labelColors[label] || "#FFFFFF";
 
     if (loading) {
-        return <CardSkeleton/>
+        return <CardSkeleton />;
     }
 
     return (
         <div className="bg-gray-100 dark:bg-slate-700 p-5 rounded-xl">
             <div className="p-5 rounded-xl" style={{ backgroundColor: bgColor }}>
-                <img src={img} width={200} />
+                <Image
+                    src={img}
+                    width={200}
+                    height={200}
+                    alt="img"
+                    priority={true} // Untuk mempercepat loading gambar
+                />
             </div>
             <div>
                 <p className="text-sm text-slate-400 pt-3">{label}</p>
