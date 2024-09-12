@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import CardSkeleton from "./CardSkeleton";
+import CardSkeleton from "./cardSkeleton";
 
 const labelColors: { [key: string]: string } = {
     website: "#fee2e2",
@@ -20,7 +20,7 @@ function CardWork({ img, label, title }: CardWorkProps) {
     useEffect(() => {
         const timer = setTimeout(() => {
             setLoading(false);
-        }, 7000); // Simulasi loading selama 2 detik
+        }, 2000); // Simulasi loading selama 2 detik
 
         return () => clearTimeout(timer);
     }, []);
