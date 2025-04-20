@@ -43,5 +43,15 @@
         "image": "/images/portfolio/portfolio-topup-game.png",
         "label": "website",
         "title": "Top Up App"
+    },
+    {
+        "image": "/images/portfolio/mockup-rumame-desktop-3.webp",
+        "label": "website",
+        "title": "Rumame"
+    },
+    {
+        "image": "/images/portfolio/mockup-cms-rumame-desktop-1.webp",
+        "label": "website",
+        "title": "Rumame CMS"
     }
 ]

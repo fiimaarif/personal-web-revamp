@@ -40,6 +40,7 @@ function CardWork({ img, label, title }: CardWorkProps) {
                     height={200}
                     alt="img"
                     priority={true} // Untuk mempercepat loading gambar
+                    className="rounded-xl h-28"
                 />
             </div>
             <div>
