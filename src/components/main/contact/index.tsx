@@ -10,9 +10,7 @@ function Contact() {
                 Contact
             </h1>
             <article className="py-5 w-full md:w-full xl:w-8/12">
-                <p className="text-base md:text-lg text-neutral-600 dark:text-gray-50">I appreciate your interest in reaching out to me.</p>
-                <p className="text-base md:text-lg text-neutral-600 dark:text-gray-50">I'll do my best to respond promptly.</p>
-                <p className="text-base md:text-lg text-neutral-600 dark:text-gray-50">Thank you for your attention.</p>
+                <p className="text-base md:text-lg text-neutral-600 dark:text-gray-50 text-justify md:text-left">I'm excited to connect with you! Whether you have questions, want to discuss a project, or just want to say hello, feel free to get in touch. You can reach me via email, phone, or through my social media profiles. I'll respond as soon as I can.</p>
             </article>
             <div className="bg-slate-100 dark:bg-slate-700 p-10 rounded-3xl">
                 <form action={`https://formspree.io/f/${formspreeId}`} method="POST">
