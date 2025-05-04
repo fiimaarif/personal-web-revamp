@@ -32,19 +32,19 @@ function CardWork({ img, label, title }: CardWorkProps) {
     }
 
     return (
-        <div className="bg-gray-100 dark:bg-slate-700 p-5 rounded-xl">
-            <div className="p-5 rounded-xl" style={{ backgroundColor: bgColor }}>
+        <div className="bg-gray-100 dark:bg-slate-700 p-2 lg:p-5 rounded-xl">
+            <div className="p-2 lg:p-5 rounded-xl" style={{ backgroundColor: bgColor }}>
                 <Image
                     src={img}
                     width={200}
                     height={200}
                     alt="img"
                     priority={true} // Untuk mempercepat loading gambar
-                    className="rounded-xl h-28"
+                    className="rounded-xl h-15 lg:h-28"
                 />
             </div>
             <div>
-                <p className="text-sm text-slate-400 pt-3">{label}</p>
+                <p className="text-sm text-slate-400 pt-1 md:pt-3">{label}</p>
                 <p className="font-semibold text-slate-900 dark:text-gray-50">{title}</p>
             </div>
         </div>
