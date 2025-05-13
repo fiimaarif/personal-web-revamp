@@ -28,7 +28,7 @@ function About() {
                 <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 dark:text-gray-50 my-5">
                     What I Do!
                 </h1>
-                <div className="grid grid-cols-12 gap-5">
+                <div className="grid lg:grid-cols-12 gap-5">
                     <div className="bg-red-50 dark:bg-slate-700 p-3 col-span-12 md:col-span-6 rounded-xl">
                         <div className="bg-emerald-100 dark:bg-slate-500 w-min p-2 rounded-xl mb-2">
                             <Layout
