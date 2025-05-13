@@ -48,7 +48,7 @@ function Resume() {
                 </div>
             </div>
             <h1 className="text-2xl font-semibold text-gray-800 dark:text-gray-50 my-5">Knowledges</h1>
-            <div className="flex gap-1 md:gap-1 lg:gap-x-4 lg:gap-y-3 flex-wrap justify-start">
+            <div className="flex gap-1 md:gap-1 lg:gap-x-4 lg:gap-y-3 flex-wrap justify-between lg:justify-start">
                 {knowledges.map((item, index) => (
                     <div key={index} className="bg-red-400 dark:bg-slate-700 px-5 py-1 rounded-3xl font-medium text-gray-50">{item.label}</div>
                 ))}
