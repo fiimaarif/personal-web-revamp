@@ -1,50 +1,54 @@
 [
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/codeigniter.svg",
+        "image": "images/techstack/codeigniter.svg",
         "alt": "codeigniter"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/bootstrap-plain.svg",
+        "image": "images/techstack/bootstrap-plain.svg",
         "alt": "bootstrap"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg",
+        "image": "images/techstack/css3-original-wordmark.svg",
         "alt": "css"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/html5-original-wordmark.svg",
+        "image": "images/techstack/html5-original-wordmark.svg",
         "alt": "html5"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/javascript-original.svg",
+        "image": "images/techstack/javascript-original.svg",
         "alt": "javascript"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg",
+        "image": "images/techstack/react-original-wordmark.svg",
         "alt": "react"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/typescript-original.svg",
+        "image": "images/techstack/typescript-original.svg",
         "alt": "typescript"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/angularjs-original.svg",
+        "image": "images/techstack/angularjs-original.svg",
         "alt": "angular"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/php-original.svg",
+        "image": "images/techstack/php-original.svg",
         "alt": "php"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/redux-original.svg",
+        "image": "images/techstack/redux-original.svg",
         "alt": "redux"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/express-original-wordmark.svg",
+        "image": "images/techstack/express-original-wordmark.svg",
         "alt": "express"
     },
     {
-        "image": "https://profilinator.rishav.dev/skills-assets/git-scm-icon.svg",
+        "image": "images/techstack/git-scm-icon.svg",
+        "alt": "git"
+    },
+    {
+        "image": "images/techstack/postgresql-original-wordmark.svg",
         "alt": "git"
     }
 ]
