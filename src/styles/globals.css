@@ -39,7 +39,7 @@ body {
   width: 100%;
   border: none;
   border-bottom: 1px solid #757575;
-  background: none;
+  outline: none;
 }
 
 .custom-form-input:focus {
@@ -61,6 +61,7 @@ body {
   position: relative;
   display: block;
   width: 100%;
+  border: none;
 }
 
 .custom-form-bar:before, .custom-form-bar:after {
