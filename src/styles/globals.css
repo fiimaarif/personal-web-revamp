@@ -44,6 +44,8 @@ body {
   border-right: none;
   outline: none;
   background: none;
+  border-radius: 0px;
+  outline-style: none;
 }
 
 .custom-form-input:focus {
