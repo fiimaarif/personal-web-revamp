@@ -76,7 +76,7 @@ function About() {
                     Languages and Tools
                 </h1>
                 <div>
-                    <div className="flex flex-wrap justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl">
+                    <div className="flex lg:flex-wrap justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto">
                         {tech.map((item, index) => (
                             <img
                                 key={index}
