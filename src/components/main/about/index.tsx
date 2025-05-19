@@ -5,9 +5,10 @@ import { Codesandbox, Layout } from "react-feather";
 function About() {
     return (
         <main className="p-8 bg-slate-50 dark:bg-slate-800 rounded-3xl mt-2 md:mt-0 mb-10 md:mb-0">
-            <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 dark:text-gray-50 mb-5">
+            <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 dark:text-gray-50 mb-2">
                 About
             </h1>
+            <hr className="border-dashed border-2 border-gray-300 dark:border-gray-600 mb-5" />
             <article>
                 <p className="text-base xl:text-xl text-justify text-neutral-600 dark:text-gray-50">
                     Hi there, I'm fii maarif. I am a Frontend Developer. I have
