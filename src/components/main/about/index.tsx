@@ -77,17 +77,19 @@ function About() {
                     Languages and Tools
                 </h1>
                 <div>
-                    <div className="flex lg:flex-wrap justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto">
+                    <div className="flex justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto">
                         {tech.map((item, index) => (
-                            <img
-                                key={index}
-                                title={item.alt}
-                                width={30}
-                                height={30}
-                                src={item.image}
-                                alt={item.alt}
-                                className="icon-zoom"
-                            />
+                            <div className="flex items-center bg-white shadow-md rounded-full py-1 px-5 gap-1 min-w-max">
+                                <img
+                                    key={index}
+                                    title={item.alt}
+                                    width={22}
+                                    height={22}
+                                    src={item.image}
+                                    alt={item.alt}
+                                />
+                                <p>{item.name}</p>
+                            </div>
                         ))}
                     </div>
                 </div>
