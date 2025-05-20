@@ -77,7 +77,7 @@ function About() {
                     Languages and Tools
                 </h1>
                 <div>
-                    <div className="flex justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto">
+                    <div className="flex justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto scrollbar-hide">
                         {tech.map((item, index) => (
                             <div className="flex items-center bg-white shadow-md rounded-full py-1 px-5 gap-1 min-w-max">
                                 <img
