@@ -1,54 +1,67 @@
 [
     {
         "image": "images/techstack/codeigniter.svg",
+        "name" : "Codeigniter",
         "alt": "codeigniter"
     },
     {
         "image": "images/techstack/bootstrap-plain.svg",
+        "name" : "Bootstrap",
         "alt": "bootstrap"
     },
     {
         "image": "images/techstack/css3-original-wordmark.svg",
+        "name" : "CSS",
         "alt": "css"
     },
     {
         "image": "images/techstack/html5-original-wordmark.svg",
+        "name" : "HTML5",
         "alt": "html5"
     },
     {
         "image": "images/techstack/javascript-original.svg",
+        "name" : "Javascript",
         "alt": "javascript"
     },
     {
         "image": "images/techstack/react-original-wordmark.svg",
+        "name" : "React",
         "alt": "react"
     },
     {
         "image": "images/techstack/typescript-original.svg",
+        "name" : "Typescript",
         "alt": "typescript"
     },
     {
         "image": "images/techstack/angularjs-original.svg",
+        "name" : "Angular",
         "alt": "angular"
     },
     {
         "image": "images/techstack/php-original.svg",
+        "name" : "PHP",
         "alt": "php"
     },
     {
         "image": "images/techstack/redux-original.svg",
+        "name" : "Redux",
         "alt": "redux"
     },
     {
         "image": "images/techstack/express-original-wordmark.svg",
+        "name" : "Express",
         "alt": "express"
     },
     {
         "image": "images/techstack/git-scm-icon.svg",
+        "name" : "GIT",
         "alt": "git"
     },
     {
         "image": "images/techstack/postgresql-original-wordmark.svg",
-        "alt": "git"
+        "name" : "Postgresql",
+        "alt": "postgresql"
     }
 ]
