@@ -79,7 +79,7 @@ function About() {
                 <div>
                     <div className="flex justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 p-7 rounded-2xl overflow-x-auto scrollbar-hide">
                         {tech.map((item, index) => (
-                            <div className="flex items-center bg-white shadow-md rounded-full py-1 px-5 gap-1 min-w-max">
+                            <div className="flex items-center bg-white dark:bg-slate-600 shadow-md rounded-full py-1 px-5 gap-1 min-w-max">
                                 <img
                                     key={index}
                                     title={item.alt}
@@ -88,7 +88,7 @@ function About() {
                                     src={item.image}
                                     alt={item.alt}
                                 />
-                                <p>{item.name}</p>
+                                <p className="text-black dark:text-white">{item.name}</p>
                             </div>
                         ))}
                     </div>
