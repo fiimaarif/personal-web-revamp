@@ -15,8 +15,8 @@ function Resume() {
                         <Grid size={30} color="#0891b2" />
                         <p className="ml-1 mt-1 text-xl dark:text-gray-50">Education</p>
                     </div>
-                    {education.map((item) => (
-                        <div className="bg-red-50 dark:bg-slate-700 p-5 rounded-2xl mb-5">
+                    {education.map((item, index) => (
+                        <div key={index} className="bg-red-50 dark:bg-slate-700 p-5 rounded-2xl mb-5">
                         <div className="flex justify-between mb-2">
                             <p className="text-sm text-gray-600 dark:text-gray-50">{item.year}</p>
                             <p className="text-sm text-gray-600 dark:text-gray-50">{item.degree}</p>
@@ -33,8 +33,8 @@ function Resume() {
                         <Briefcase size={30} color="#0891b2" />
                         <p className="ml-1 mt-1 text-xl dark:text-gray-50">Experience</p>
                     </div>
-                    {experience.map((item) => (
-                        <div className="bg-emerald-50 dark:bg-slate-700 p-5 rounded-2xl mb-5">
+                    {experience.map((item, index) => (
+                        <div key={index} className="bg-emerald-50 dark:bg-slate-700 p-5 rounded-2xl mb-5">
                             <div className="flex justify-between mb-2">
                                 <p className="text-sm text-gray-600 dark:text-gray-50">
                                     {item.year}
