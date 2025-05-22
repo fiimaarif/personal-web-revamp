@@ -5,7 +5,7 @@ import Toggle from '../toggle';
 
 function Sidebar() {
   return (
-      <aside className="w-full md:w-1/2 lg:w-1/4 bg-slate-50 dark:bg-slate-800 p-6 rounded-3xl">
+      <aside className="w-full md:w-1/2 lg:w-1/4 bg-slate-50 dark:bg-slate-800 lg:p-6 p-4 rounded-3xl">
           <img src="/images/profile-pic2.png" />
           <div className="mt-7">
             <div className='text-center pb-1'>
