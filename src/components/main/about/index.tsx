@@ -72,8 +72,8 @@ function About() {
                 <div>
                     <div className="flex justify-center gap-5 mt-10 bg-gray-100 dark:bg-slate-700 rounded-2xl overflow-x-auto scrollbar-hide">
                         <div className="relative overflow-hidden px-0 py-7">
-                            <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-white dark:from-slate-900 to-transparent z-10 pointer-events-none" />
-                            <div className="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-white dark:from-slate-900 to-transparent z-10 pointer-events-none" />
+                            <div className="absolute left-0 top-0 h-full w-16 bg-gradient-to-r from-gray-100 dark:from-slate-900 to-transparent z-10 pointer-events-none" />
+                            <div className="absolute right-0 top-0 h-full w-16 bg-gradient-to-l from-gray-100 dark:from-slate-900 to-transparent z-10 pointer-events-none" />
                             <div className="animate-slide flex gap-4 w-max">
                                 {tech.map((item, index) => (
                                     <div className="flex items-center bg-white dark:bg-slate-600 shadow-md rounded-full py-1 px-5 gap-1 min-w-max">
