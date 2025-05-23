@@ -6,7 +6,7 @@ import knowledges from "../../utils/knowledges.json";
 
 function Resume() {
     return (
-        <main className="p-8 bg-slate-50 dark:bg-slate-800 rounded-3xl mt-2 md:mt-0 mb-10 md:mb-0">
+        <main className="lg:p-8 p-4 bg-slate-50 dark:bg-slate-800 rounded-3xl mt-2 md:mt-0 mb-10 md:mb-0">
             <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 dark:text-gray-50 mb-2">Resume</h1>
             <hr className="border-dashed border-2 border-gray-300 dark:border-gray-600 mb-5" />
             <div className="lg:flex block gap-5">
