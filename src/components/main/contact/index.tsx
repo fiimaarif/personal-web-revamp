@@ -5,7 +5,7 @@ import { Send } from "react-feather";
 function Contact() {
     const formspreeId = process.env.NEXT_PUBLIC_FORMSPREE_ID;
     return (
-        <main className="p-8 bg-slate-50 dark:bg-slate-800 rounded-3xl mt-2 md:mt-0 mb-12 md:mb-0">
+        <main className="lg:p-8 p-4 bg-slate-50 dark:bg-slate-800 rounded-3xl mt-2 md:mt-0 mb-12 md:mb-0">
             <h1 className="text-2xl xl:text-3xl font-semibold text-gray-800 dark:text-gray-50 mb-2">
                 Contact
             </h1>
