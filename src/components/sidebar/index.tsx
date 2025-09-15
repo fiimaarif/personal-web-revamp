@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartphone, Twitter } from 'react-feather'
+import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartphone, GitHub } from 'react-feather'
 import Toggle from '../toggle';
 
 function Sidebar() {
@@ -36,10 +36,10 @@ function Sidebar() {
                       <Facebook color="#22d3ee" />
                   </Link>
                   <Link
-                      href={"#"}
+                      href={"https://github.com/fiimaarif"}
                       className="bg-gray-100 dark:bg-slate-700 hover:bg-gray-200 p-2 rounded-xl"
                   >
-                      <Twitter color="#1d4ed8" />
+                      <GitHub color="#1d4ed8" />
                   </Link>
               </div>
           </div>
