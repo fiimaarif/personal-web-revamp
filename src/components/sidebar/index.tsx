@@ -73,16 +73,6 @@ function Sidebar() {
                       <p className='dark:text-gray-50'>South Jakarta, Indonesia</p>
                   </div>
               </div>
-              <hr className="my-2" />
-              <div className="flex items-center">
-                  <div className="bg-neutral-50 dark:bg-slate-600 shadow p-2 rounded">
-                      <Calendar color="#f43f5e" />
-                  </div>
-                  <div className="ml-2">
-                      <p className='text-xs text-gray-500'>Birthday</p>
-                      <p className='dark:text-gray-50'>May 10, 1998</p>
-                  </div>
-              </div>
           </div>
           <div className="mt-5 bg-teal-500 dark:bg-slate-700 hover:bg-teal-700 p-3 rounded-xl">
               <Link href={'https://drive.google.com/file/d/1YNi6a1Oe6kUm9mlXjtLgCdg7aCD2y59B/view?usp=sharing'} target='_blank' className="flex justify-center text-slate-50">
