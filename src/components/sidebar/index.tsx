@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import React from 'react'
-import { Calendar, Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartphone, GitHub } from 'react-feather'
+import { Download, Facebook, Instagram, Linkedin, Mail, MapPin, Smartphone, GitHub } from 'react-feather'
 import Toggle from '../toggle';
 
 function Sidebar() {
