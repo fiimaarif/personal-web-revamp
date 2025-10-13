@@ -8,7 +8,7 @@ import Contact from "../main/contact";
 const TABS = [
     { key: "about", label: "about", icon: <User size={19} /> },
     { key: "resume", label: "resume", icon: <FileMinus size={19} /> },
-    { key: "work", label: "works", icon: <Briefcase size={19} /> },
+    { key: "portfolio", label: "portfolio", icon: <Briefcase size={19} /> },
     { key: "contact", label: "contact", icon: <Mail size={19} /> },
 ];
 
@@ -48,7 +48,7 @@ function Navbar() {
                 return <About />;
             case "resume":
                 return <Resume />;
-            case "work":
+            case "portfolio":
                 return <Work />;
             case "contact":
                 return <Contact />;
